@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    default: local
+
+#spring:
+#  datasource:
+#    url: fgn
+#    username: xfgn
+#    password: xfgh
