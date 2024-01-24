@@ -12,17 +12,18 @@ Language level: 17 (SDK default)
 ### L1FirstSpringProject
 
 **План лекции:**
-1. Создание нового проекта ([spring initializr](https://start.spring.io/))
-2. Добавление зависимостей (spring web)
-3. Аннотации Component, Service, Repository, Controller
-4. Добавление зависимостей в классе (конструктор, @Autowired, ~~setter~~)
-5. Примитивный класс-контроллер (@RestController, @GetMapping)
-6. Варианты реализации контейнера (BeanFactory, **_ApplicationContext_**)
-7. Типы (области видимости) бинов (@Scope): Singleton, Prototype, Request / Session / Application, WebSocket
-8. Как работает контейнер (этапы)
-9. Файлы конфигураций (application.properties или application.yml)
-10. Использование конфигураций в коде (@ConfigurationProperties)
-11. Профили Spring (@Profile)
+1. Принципы Spring: Dependency Injection (DI), Inversion of Control (IoC)
+2. Создание нового проекта ([spring initializr](https://start.spring.io/))
+3. Добавление зависимостей (spring web)
+4. Аннотации Component, Service, Repository, Controller
+5. Добавление зависимостей в классе (конструктор, @Autowired, ~~setter~~)
+6. Примитивный класс-контроллер (@RestController, @GetMapping)
+7. Варианты реализации контейнера (BeanFactory, **_ApplicationContext_**)
+8. Типы (области видимости) бинов (@Scope): Singleton, Prototype, Request / Session / Application, WebSocket
+9. Как работает контейнер (этапы)
+10. Файлы конфигураций (application.properties или application.yml)
+11. Использование конфигураций в коде (@ConfigurationProperties)
+12. Профили Spring (@Profile)
 
 **Аннотации:**
 * @SpringBootApplication
